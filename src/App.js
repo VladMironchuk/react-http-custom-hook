@@ -19,7 +19,7 @@ function App() {
 
       setTasks(loadedTasks);
     }
-    fetchTasks({url: 'https://react-backend-cf21f-default-rtdb.firebaseio.com/tasks.json'},
+    fetchTasks({url: '*some url*'},
       transformTasks);
   }, [fetchTasks]);
 
